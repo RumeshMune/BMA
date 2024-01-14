@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"> -->
+
+    <title>Finance Business HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+<!--
+
+Finance Business TemplateMo
+
+https://templatemo.com/tm-545-finance-business
+
+-->
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+              <li><a href="#"><i class="fa fa-envelope"></i>info@bmaexam.com</a></li>
+             <!-- {{--<li><a href="#"><i class="fa fa-phone"></i>000-000-0000</a></li>--}} -->
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="right-icons">
+              <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="resources\views\home.php"><h2>British Medical Accreditation</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="{{ Request::segment(1) === 'home' ? 'active' : null }} nav-item">
+                <a class="nav-link" href="{{ url('home' )}}"></i>Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="programs" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Faculty
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="{{ url('medical' )}}" ></i>Medical</a>
+                  <a class="dropdown-item" href="{{ url('teaching' )}}">Education</a>
+                  <a class="dropdown-item" href="{{ url('psychology' )}}">Psychology</a>
+                </div>
+              </li>
+              <li class="{{ Request::segment(1) === 'about' ? 'active' : null }} nav-item">
+                <a class="nav-link" href="{{ url('about' )}}">About Us</a>
+              </li>
+              <li class="{{ Request::segment(1) === 'register' ? 'active' : null }} nav-item">
+                <a class="nav-link" href="registration">Register</a>
+              </li>
+              <!--<li class="{{ Request::segment(1) === 'login' ? 'active' : null }} nav-item">
+                <a class="nav-link" href="login">Login</a>
+              </li> -->
+              <li class="{{ Request::segment(1) === 'portal' ? 'active' : null }} nav-item">
+                <a class="nav-link" href="\laravel\resources\views\portal.blade.php">Portal</a>
+              </li>
+
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+  
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>Welcome to the BMA</h6>
+                  <h4>Be a <em>BMA</em> <br>Qualified <br> Professionals</h4>
+                  <p>The Best University Among 100 Universities in UK</p>
+                  <a href="register" class="filled-button">Join Now</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-2">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>we are here to guide you to</h6>
+                  <h4>Be a <em>BMA</em> <br>Qualified <br> Early Childhood Teacher</h4>
+                  <p>Early childhood educators focus on young children's learning, development, social, and physical needs.</p>
+                  <a href="register" class="filled-button">Sign Up</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-3">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>Start learning for Career in Psychologist</h6>
+                  <h4>Be a <em>BMA</em> <br>Qualified Psychologist</h4>
+                  <p>As a psychologist, you will be able to assist people in coping with life's challenges and better coping with mental health issues.</p>
+                  <a href="register" class="filled-button">Sign Up</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+        </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Our Featured Programs</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/service_01.jpg" alt="">
+              <div class="down-content">
+                <h4>BMA Qualified Psychology Counsellor</h4>
+                <p>As a psychologist, you will be able to assist people in coping with life's challenges and better coping with mental health issues.</p>
+                <a href="psychology" class="filled-button">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/service_02.jpg" alt="">
+              <div class="down-content">
+                <h4>BMA Qualified Early Childhood Teachers</h4>
+                <p>Early Childhood educators focus on young children's learning, development, social, and physical needs.</p>
+                <a href="teaching" class="filled-button">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/service_03.jpg" alt="">
+              <div class="down-content">
+                <h4>BMA Qualified Doctor</h4>
+                <p> BMA students who want to represent their classmates and strengthen the connection between past and future students can look into the School of Medicine Student Ambassador program.</p>
+                <a href="medical" class="filled-button">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fun-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-content">
+              <span>Making <em>BMA</em> Qualified Professionals for the World</span>
+              <h2>WHAT WE DO</h2>
+              <p>We provide teachers, psychologists and students with the tools they need to become properly certified professionals in the world.</p>
+              <a href="about" class="filled-button">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">28</div>
+                  <div class="count-title">BMA Programs</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">128480</div>
+                  <div class="count-title">Student Feedback</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">2700</div>
+                  <div class="count-title">Lecturers</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">83</div>
+                  <div class="count-title">Countries</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content pb-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left-image">
+                    <img src="assets/images/more-info.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <span>Who we are</span>
+                    <h2>Get to know about <em>us</em></h2>
+                   <!-- <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus<br><br>Praes end at dictum metus. Morbi id hendrerit lectus, nec dapibus ex. Etiam ipsum quam, luctus eu egestas eget, tincidunt</p>-->
+                    <a href="about" class="filled-button">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+
+
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+           <!-- <h4>BMA</h4>
+            <p>Join With Us Today.</p>
+            <ul class="social-icons">
+              <li><a rel="nofollow" href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+            </ul>
+          </div> 
+          <div class="col-md-3 footer-item">
+            <h4>Contact Us</h4>
+            <ul class="menu-list">
+              <li>
+                <p>32 B,<br>Walmsley Place, <br> Great Sutton Street,<br> London, UK,</p>
+             <!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.3072592303556!2d-0.1311486847988899!3d51.52592401717046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3aabf40b7f%3A0x1e7a59aa53e24dfc!2sBMA%20House!5e0!3m2!1sen!2slk!4v1636617883913!5m2!1sen!2slk" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+              </li>
+              <!-- <li><p>+44 207 874 7020</p></li> -->
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Additional Pages</h4>
+            <ul class="menu-list">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">How We Work</a></li>
+              <li><a href="#">Quick Support</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item last-item">
+            <h4>Contact Us</h4>
+           <div class="contact-form">
+              <form id="contact footer-contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="filled-button">Send Message</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2014 - 2022 BMA.<a rel="nofollow noopener" href="" target="_blank">BMA</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+      <!--Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+     <!--Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+  
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+  
+    <!-- The core Firebase JS SDK is always required and must be listed first 
+  <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase.js"></script>
+  
+  TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries 
+  <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js"></script>
+  
+   Our script must be loaded after firebase references 
+  <script src="/assets/js/reg.js"></script> -->
+  
+
+  </body>
+</html>
